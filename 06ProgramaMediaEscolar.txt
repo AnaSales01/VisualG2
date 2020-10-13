@@ -1,0 +1,28 @@
+Algoritmo "MediaEscolar"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Cláudio Iwakami
+// Descrição   : O usuário insere 4 notas e o programa retornará se o aluno está aprovado ou reprovado.
+// Autor(a)    : Ana Cláudia Correa da Silva
+// Data atual  : 06/10/2020
+Var
+N1, N2, N3, N4,R: real
+
+Inicio
+
+  escreval("Olá, seja bem-vindo(a) ao programa Média Escolar!")
+  escreval("Insira a primeira nota ")
+      leia(N1)
+  escreval("Insira a segunda nota ")
+      leia(N2)
+  escreval("Insira a terceira nota ")
+      leia(N3)
+  escreval("Insira a última nota ")
+      leia(N4)
+     R <- (N1+N2+N3+N4)/4
+       se (R > 6) entao
+  escreval(R, " Parabéns!!! Você foi APROVADO")
+     senao(R < 6)
+  escreval(R, " Infelizmente, você foi REPROVADO")
+     fimse
+
+Fimalgoritmo
