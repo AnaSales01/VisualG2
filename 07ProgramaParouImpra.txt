@@ -1,0 +1,22 @@
+Algoritmo "ProgramaParouImpar"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Claudio Iwakami
+// Descrição   : O usuário digita um número e o programa retorna se impar ou par.
+// Autor(a)    : Ana Claudia Correa da Silva
+// Data atual  : 07/10/2020
+Var
+
+ X: inteiro
+
+Inicio
+
+  escreval("Olá, bem-vindo ao programa impar ou par!")
+  escreval("Digite um número qualquer (inteiro) ")
+      leia(X)
+       se (x mod 2 = 0) entao
+  escreval(X," é PAR")
+  senao
+  escreval(x," é IMPAR")
+  fimse
+
+Fimalgoritmo
