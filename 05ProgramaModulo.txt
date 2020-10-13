@@ -1,0 +1,19 @@
+Algoritmo "ProgramaModulo"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Cláudio Iwakami
+// Descrição   : O usuário digita um número e o programa volta um valor positivo.
+// Autor(a)    : Ana Claudia Correa da Silva
+// Data atual  : 06/10/2020
+Var
+ N: inteiro
+ Positivo: inteiro
+Inicio
+  escreval("Olá, seja bem-vindo(a) ao programa modulo!")
+  escreval("Digite um valor (inteiro) qualquer ")
+      leia(N)
+  Positivo <- (-N)
+       se (N < 0) entao
+  escreval("Esse é número positivo:  ", positivo)
+     fimse
+      
+Fimalgoritmo
