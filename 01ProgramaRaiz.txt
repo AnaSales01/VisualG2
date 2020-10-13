@@ -1,0 +1,21 @@
+Algoritmo "raiz_quadrada"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Cláudio Iwakami
+// Descrição   : O usuário calculará a raiz de uma número qualquer.
+// Autor(a)    : Ana Cláudia Correa da Silva
+// Data atual  : 05/10/2020
+Var
+
+ N1: inteiro
+ raiz: real
+
+Inicio
+
+  escreval ("Olá, digite o número que você quer tirar a raiz quadrada (número inteiro) ")
+      leia (N1)
+   Raiz <- (raizq (N1))
+        se (N>0) entao
+  escreval ("O resultado é ", raiz)
+     fimse
+
+Fimalgoritmo
