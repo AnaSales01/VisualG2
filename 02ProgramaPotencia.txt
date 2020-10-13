@@ -1,0 +1,23 @@
+Algoritmo "Potência"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Cláudio Iwakami
+// Descrição   : O usuário calculará a potência de um número
+// Autor(a)    : Ana Cláudia Correa da Silva
+// Data atual  : 05/10/2020
+Var
+ N1, N2: inteiro
+ P: real
+
+Inicio
+
+  escreval ("Olá, essa é a calculadora de potência!")
+  escreval ("Digite um número (que seja inteiro) ")
+      leia (N1)
+  escreval ("Agora, digite a potência ")
+      leia (N2)
+      P <- (N1^N2)
+        se (P > 0) entao
+  escreval ("O resultado da potência é: ", P)
+     fimse
+
+Fimalgoritmo
