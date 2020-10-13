@@ -1,0 +1,21 @@
+Algoritmo "ProgramaMaior"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Claudio Iwakami
+// Descrição   : O usuário insere 2 números e o programa retorna o maior valor.
+// Autor(a)    : Ana Cláudia Correa da Silva
+// Data atual  : 06/10/2020
+Var
+ N1, N2: inteiro
+ 
+Inicio
+  escreval("Olá, seja bem-vindo(a) ao programa maior!")
+  escreval("Digite um número (inteiro) qualquer ")
+      leia(N1)
+  escreval("Digite um outro número (inteiro) qualquer ")
+      leia(N2)
+        se(N1 > N2) então
+  escreval(N1, " esse é o maior número")
+    senão (N2 > N1)
+  escreval(N2, " esse é o maior número")
+     fimse
+Fimalgoritmo
